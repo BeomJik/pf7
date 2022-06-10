@@ -1,0 +1,51 @@
+.row > div{
+  border: 1px solid;
+}
+main{
+   height: 300%;
+}
+/* main .mu{
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+}
+main .mu li{
+  display: table-cell;
+  border: 1px solid;
+  box-sizing: border-box;
+} */
+main .mu{
+  background: yellow;
+/*   overflow: hidden;  */
+}
+main .mu::before{
+  content: '';
+  display: table;
+  clear: both;
+  
+}
+main .mu li{
+  float: left;
+  border: 1px solid;
+}
+main .mu::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.form-inline .form-group:nth-child(2)::before{
+  display: teble;
+  content:'';
+  table-layout:  fixed;
+  
+}
+.form-inline .form-group:nth-child(2)::after{
+  display: teble;
+  content:'';
+  clear: both
+}
+.progress-bar{
+  width: 0%;
+  transition: all 2s;
+}

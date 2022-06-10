@@ -1,0 +1,193 @@
+#title .slick-prev,
+#title .slick-next{
+  width: 50px;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s;
+}
+
+#title .slick-prev{
+  left: -50px;
+}
+#title .slick-next{
+  right: -50px;
+}
+#title .slick-prev::before{
+  content: "";
+  width: 20px;
+  height: 20px;
+  display: block;
+  border: 2px solid #000;
+  border-right: transparent;
+  border-bottom: transparent;
+  transform: translateX(5px) rotate(-45deg);
+}
+#title .slick-next::before{
+  content: "";
+  width: 20px;
+  height: 20px;
+  display: block;
+  border: 2px solid #000;
+  border-left: transparent;
+  border-bottom: transparent;
+  transform: translateX(-5px) rotate(45deg);
+}
+#title .slick-dots li button{  
+  display: none;
+}
+#title .slick-dots li button::before{
+  content: '•';
+}
+
+#recommand .slick-prev,
+#recommand .slick-next{
+  width: 50px;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s;
+}
+
+#recommand .slick-prev{
+  left: -50px;
+  top: 40%;
+}
+#recommand .slick-next{
+  right: -50px;
+  top: 40%;
+}
+#recommand .slick-prev::before{
+  content: "";
+  width: 20px;
+  height: 20px;
+  display: block;
+  border: 2px solid #000;
+  border-right: transparent;
+  border-bottom: transparent;
+  transform: translateX(5px) rotate(-45deg);
+  opacity: 0.5;
+}
+#recommand .slick-next::before{
+  content: "";
+  width: 20px;
+  height: 20px;
+  display: block;
+  border: 2px solid #000;
+  border-left: transparent;
+  border-bottom: transparent;
+  transform: translateX(-5px) rotate(45deg);
+  opacity: 0.5;
+}
+#recommand .slick-prev.slick-disabled::before,
+#recommand .slick-next.slick-disabled::before {
+  opacity: .25;
+}
+
+#recommand .slick-dots li button::before{
+  content: '•';
+}
+
+#newarrival .slick-prev,
+#newarrival .slick-next{
+  width: 50px;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s;
+}
+
+#newarrival .slick-prev{
+  left: -30px;
+  top: 40%;
+}
+#newarrival .slick-next{
+  right: -30px;
+  top: 40%;
+}
+#newarrival .slick-prev::before{
+  content: "";
+  width: 20px;
+  height: 20px;
+  display: block;
+  border: 2px solid #000;
+  border-right: transparent;
+  border-bottom: transparent;
+  transform: translateX(5px) rotate(-45deg);
+  opacity: 0.5;
+}
+#newarrival .slick-next::before{
+  content: "";
+  width: 20px;
+  height: 20px;
+  display: block;
+  border: 2px solid #000;
+  border-left: transparent;
+  border-bottom: transparent;
+  transform: translateX(-5px) rotate(45deg);
+  opacity: 0.5;
+}
+#newarrival .slick-prev.slick-disabled::before,
+#newarrival .slick-next.slick-disabled::before {
+  opacity: .25;
+}
+
+#channel .slick-prev{
+  left: -50px;
+  top: 50%;
+}
+#channel .slick-next{
+  right: -50px;
+  top: 50%;
+}
+
+.slick-prev,
+.slick-next{
+  width: 50px;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s;
+}
+.slick-prev{
+  left: -30px;
+  top: 40%;
+}
+.slick-next{
+  right: -30px;
+  top: 40%;
+}
+.slick-prev::before{
+  content: "";
+  width: 20px;
+  height: 20px;
+  display: block;
+  border: 2px solid #000;
+  border-right: transparent;
+  border-bottom: transparent;
+  transform: translateX(5px) rotate(-45deg);
+  opacity: 0.5;
+}
+.slick-next::before{
+  content: "";
+  width: 20px;
+  height: 20px;
+  display: block;
+  border: 2px solid #000;
+  border-left: transparent;
+  border-bottom: transparent;
+  transform: translateX(-5px) rotate(45deg);
+  opacity: 0.5;
+}
+.slick-prev.slick-disabled::before,
+.slick-next.slick-disabled::before {
+  opacity: .25;
+}
